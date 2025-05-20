@@ -1,7 +1,7 @@
 # DSA Practice
 
 This repository contains my daily DSA (Data Structures & Algorithms) practice solutions, mostly from [LeetCode](https://leetcode.com/), written in C++.
-(Questions are attached in the extended description with leetcode examples)
+(Questions are attached in the extended description with leetcode examples.)
 
 ## Goals
 - Solve 2-3 problem every day  (vacations)

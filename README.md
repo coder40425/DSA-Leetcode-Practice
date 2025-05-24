@@ -14,7 +14,7 @@ Solve 150+ DSA problems by July end.
 
 Master important techniques: sliding window, prefix sum, recursion, trees, graphs, etc.
 
-Build interview-level confidence in key data structures and algorithms
+Build interview-level confidence in key data structures and algorithms.
 
 
 
@@ -22,9 +22,9 @@ Build interview-level confidence in key data structures and algorithms
 
 ✅ Current Progress
 
-Problems Solved: 20 (so far)
-Currently Focused On: Arrays + Sliding Window  
-Approach: 2-3 problems/day with increasing difficulty
+Problems Solved: 20 (so far).
+Currently Focused On: Arrays + Sliding Window  .
+Approach: 2-3 problems/day with increasing difficulty.
 
 
 ---
@@ -34,14 +34,23 @@ Approach: 2-3 problems/day with increasing difficulty
 Week	     Topics	                       Status
 
 Week 0 	C++ STL + OOP Refresh	         ✅ Done
+
 Week 1  Arrays + Sliding Window	       ✅ In Progress
+
 Week 2  Strings + Sorting	             ⏳ Upcoming
+
 Week 3 Linked List + Stack/Queue I	   ⏳ Upcoming
+
 Week 4 Trees I + Stack/Queue II	       ⏳ Upcoming
+
 Week 5 Binary Search, Heaps, PQ	       ⏳ Upcoming
+
 Week 6 Backtracking + Recursion	       ⏳ Upcoming
+
 Week 7 Greedy + Hashing	               ⏳ Upcoming
+
 Week 8 Graphs (BFS/DFS, DSU)	         ⏳ Upcoming
+
 Week 9 Intro to Dynamic Programming	   ⏳ Upcoming
 
 

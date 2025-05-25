@@ -24,8 +24,10 @@ Build interview-level confidence in key data structures and algorithms.
 
 ✅ Current Progress
 
-Problems Solved: 20 (so far).
+Problems Solved: 23 (so far).
+
 Currently Focused On: Arrays + Sliding Window  .
+
 Approach: 2-3 problems/day with increasing difficulty.
 
 

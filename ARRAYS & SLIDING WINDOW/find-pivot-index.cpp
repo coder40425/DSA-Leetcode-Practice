@@ -28,7 +28,20 @@ Explanation:
 The pivot index is 0.
 Left sum = 0 (no elements to the left of index 0)
 Right sum = nums[1] + nums[2] = 1 + -1 = 0
-                                                                                    */
+
+APPROACH:
+-FIRSTLY, WE WILL CALCULATE THE TOTAL SUM OF THE ELEMENTS OF THE GIVEN ARRAY.
+-AS WE HAVE TO FIND THE INDEX WHOSE SUM OF ELEMENTS TO THE LEFT = SUM OF ELEMENTS TO THE RIGHT.
+-SO WE KNOW FOR THAT PARTICCULAR POSITION (i.e. NUMS[i]), EQUATION WILL BE TOTAL SUM = LEFT SUM + RIGHT SUM + NUMS[i]
+- THEREFORE, RIGHT SUM = TOTAL SUM - LEFT SUM - NUMA[i] (AND WE KNOW RIGHT SUM = LEFT SUM)
+-SO WE WILL GIVE THE CONDITION, IF ( LEFT SUM == TOTAL SUM - LEFT SUM - NUMS[i] ) , RETURN i (AS IT SATISFIES THE CONDITION AND IT IS THE REQUIRED ANSWER.
+-IF NOT, LEFT SUM = LEFT SUM + NUMS[i] AND THE LOOP WILL CONTNIUE TILL THE CONDITION GETS SATISFIED.
+-IF THE LOOP ENDS, AND THE CONDITION WAS NEVER SATISFIED, RETURN -1 ( AS GIVEN IN THE QST.)
+
+  TIME COMPLEXITY- O(N)
+  SPACE COMPLEXITY-O(1)  
+                                                                        */
+                                                                                   
 
 class Solution {
 public:
@@ -37,8 +50,9 @@ public:
         for (int num : nums) sum += num;
 
         for (int i = 0; i < nums.size(); i++) {
-            if (left == sum - left - nums[i])
+            if (left == sum - left - nums[i]){
                 return i;
+            }
             left += nums[i];
         }
 

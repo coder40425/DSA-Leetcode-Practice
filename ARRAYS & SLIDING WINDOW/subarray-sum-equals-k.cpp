@@ -9,7 +9,18 @@ Output: 2
 
 Example 2:
 Input: nums = [1,2,3], k = 3
-Output: 2                                  */
+Output: 2                                 
+
+APPROACH:
+ -We will have to find the subarrays starting from all the indices.
+ -We will create inner and outer loops.
+ -For every i, j will go through the array while adding sum (i.e sum = sum + nums[i])
+ -Whenever sum becomes equal to k, make count++ (i.e increase the count by 1)
+ -Answer will be the final count value (i.e return count)
+ 
+   TIME COMPLEXITY- O(N)
+   SPACE COMPLEXITY-O(1)  
+                                                                                                                 */
 
 class Solution {
 public:

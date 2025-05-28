@@ -12,9 +12,10 @@ Input: nums = [1,2,3], k = 3
 Output: 2                                 
 
 APPROACH:
- -We will have to find the subarrays starting from all the indices.
- -We will create inner and outer loops.
- -For every i, j will go through the array while adding sum (i.e sum = sum + nums[i])
+ -We will have to find the number of subarrays whose sum is equal to k.
+ -We will create outer and inner loops. (i & j)
+ -Initialize i from 0 and j from i (for every value of i)
+ -For every i, j will go through the array while adding sum (i.e sum = sum + nums[j])
  -Whenever sum becomes equal to k, make count++ (i.e increase the count by 1)
  -Answer will be the final count value (i.e return count)
  

@@ -1,4 +1,4 @@
-## 📂 Folder: STRINGS
+## 📂 Folder: STRINGS & SORTING
 
 This folder contains LeetCode problems related to String manipulation.
 Each file is a C++ solution to a corresponding LeetCode question.

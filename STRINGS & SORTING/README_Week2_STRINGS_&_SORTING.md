@@ -3,6 +3,8 @@
 This folder contains LeetCode problems related to String manipulation.
 Each file is a C++ solution to a corresponding LeetCode question.
 
+Each file is QuestionName.cpp
+
 ---
 
 ### ✅ Week 2 Checklist

@@ -37,7 +37,7 @@ Approach: 2-3 problems/day with increasing difficulty.
 
 Week	     Topics	                       Status
 
-Week 0 	C++ STL + OOP Refresh	         ✅ Done
+Week 0 	C++ STL Basic Qsts  	         ✅ Done
 
 Week 1  Arrays + Sliding Window	       ✅ Done
 

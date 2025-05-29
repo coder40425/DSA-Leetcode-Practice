@@ -24,9 +24,9 @@ Build interview-level confidence in key data structures and algorithms.
 
 ✅ Current Progress
 
-Problems Solved: 26 (so far).
+Problems Solved: 29 (so far).
 
-Currently Focused On: Arrays + Sliding Window  .
+Currently Focused On:  Strings + Sorting.
 
 Approach: 2-3 problems/day with increasing difficulty.
 
@@ -39,9 +39,9 @@ Week	     Topics	                       Status
 
 Week 0 	C++ STL + OOP Refresh	         ✅ Done
 
-Week 1  Arrays + Sliding Window	       ✅ In Progress
+Week 1  Arrays + Sliding Window	       ✅ Done
 
-Week 2  Strings + Sorting	             ⏳ Upcoming
+Week 2  Strings + Sorting	             ⏳In Progress
 
 Week 3 Linked List + Stack/Queue I	   ⏳ Upcoming
 

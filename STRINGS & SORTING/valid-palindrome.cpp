@@ -25,7 +25,7 @@ USE TWO POINTERS FROM BOTH ENDS OF THE STRING.
 
 SKIP NON-ALPHANUMERIC CHARACTERS USING ISALNUM().
 
-CONVERT BOTH CHARACTERS TO LOWERCASE FOR CASE-INSENSITIVE COMPARISON.
+CONVERT BOTH CHARACTERS TO LOWERCASE  (BY USING tolower()) FOR CASE-INSENSITIVE COMPARISON.
 
 IF ANY MISMATCH OCCURS, RETURN FALSE.
 
@@ -43,16 +43,16 @@ public:
         int left=0;
         int right=s.size()-1;
         while(left<right){
-            while(left<right && !isalnum(s[left])){
+            while(left<right && !isalnum(s[left])){      //  ! isalnum() means its neither a alphabetic nor a numeric character
                 left++;
             }
             while(left<right && !isalnum(s[right])){
                 right--;
             }
-            if(tolower(s[left])!=tolower(s[right])){
+            if(tolower(s[left])!=tolower(s[right])){            //using tolower() to convert the character into lowercase
                 return false;
             }
-            left++;
+            left++;                               //when s[left] == s[right], then move inward.
             right--;
         }
         return true;

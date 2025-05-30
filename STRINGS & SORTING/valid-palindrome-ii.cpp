@@ -43,15 +43,15 @@ public:
 
         while (left < right) {
             if (s[left] != s[right]) {
-                // Try skipping left or right
-                int l1 = left + 1, r1 = right;
-                int l2 = left, r2 = right - 1;
+                // Try skipping left or right             // we define two pairs
+                int l1 = left + 1, r1 = right;          //for skipping left
+                int l2 = left, r2 = right - 1;           //for skipping right
 
-                bool valid1 = true, valid2 = true;
+                bool valid1 = true, valid2 = true;      //assume both are valid until proven otherwise
 
                 while (l1 < r1) {
-                    if (s[l1] != s[r1]) {
-                        valid1 = false;
+                    if (s[l1] != s[r1]) {         // checking by removing the left character as l1 = left+1
+                        valid1 = false;                           
                         break;
                     }
                     l1++;
@@ -59,7 +59,7 @@ public:
                 }
 
                 while (l2 < r2) {
-                    if (s[l2] != s[r2]) {
+                    if (s[l2] != s[r2]) {           // checking by removing the right character as r2 = right-1
                         valid2 = false;
                         break;
                     }
@@ -67,13 +67,13 @@ public:
                     r2--;
                 }
 
-                return valid1 || valid2;
+                return valid1 || valid2;        // if either skipping gives atrue, it will return true
             }
-            left++;
+            left++;               //if no mismatch was found at all. we just move inward
             right--;
         }
 
-        return true;
+        return true;       //default return is true, means already a palindrome
     }
 };
  

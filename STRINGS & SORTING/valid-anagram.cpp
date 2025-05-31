@@ -8,12 +8,12 @@ Output: true
 
 Example 2:
 Input: s = "rat", t = "car"
-Output: false
+Output: false                                                                                
 
 
-# WE WILL DO IT USING TWO DIFFERENT APPROACHES.
+## WE WILL DO IT USING TWO DIFFERENT APPROACHES.
   
-APPROACH 1:-
+#APPROACH 1:-
 -USING UNORDERED MAP
 -COUNT THE FREQUENCY OF CHARACTERS OF BOTH THE STRINGS
 -IF FREQ1 == FREQ2 (MEANS ALL THE CHARACTERS IN STRING 'S' ARE PRESENT IN STRING 'T' WITH THE SAME FREQUENCY), THEN RETURN TRUE (IT IS A ANAGRAM). 
@@ -24,6 +24,10 @@ APPROACH 1:-
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        if (s.length() != t.length()){              //NO NEED TO PROCEED WITH FREQUENCY COMPARISON IF LENGTHS DON'T MATCH. (IT SAVES TIME).
+          return false;
+        }
+                    //APPROACH 1 BEGINS
         unordered_map<char,int>freq1,freq2;
         for(char c: s){          //COUNTING FOR STRING S
             freq1[c]++;
@@ -39,7 +43,7 @@ public:
 };
 
 /*
-APPROACH 2:-
+#APPROACH 2:-
 -USING FREQUENCY ARRAY
   [A FREQUENCY ARRAY IS A FIXED SIZE ARRAY (USUALLY SIZE- 26 FOR LOWERCASE LETTERS)]
   [IT WORKS FAST WHEN INPUT RANGE IS KNOWN (LIKE LOWERCASE LETTERS)
@@ -57,6 +61,10 @@ APPROACH 2:-
 class Solution {
 public:
     bool isAnagram(string s, string t) {
+        if (s.length() != t.length()){              //NO NEED TO PROCEED WITH FREQUENCY COMPARISON IF LENGTHS DON'T MATCH. (IT SAVES TIME).
+          return false;
+        }
+                 //APPROACH 2 BEGINS
         int freq[26]={0};
         for(char c: s){
             freq[c-'a']++;         //INCREASE COUNT FOR EACH CHARACTER IN S

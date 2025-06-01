@@ -25,8 +25,8 @@ APPROACH:
 
 
 
-   TIME COMPLEXITY- O(N)
-   SPACE COMPLEXITY-O(1)  
+   TIME COMPLEXITY- O(n * m)   
+   SPACE COMPLEXITY-O(m)     //AS SUBSTR(i , m) CREATES A NEW STRING EACH TIME.
                                                                                                 */
 
 

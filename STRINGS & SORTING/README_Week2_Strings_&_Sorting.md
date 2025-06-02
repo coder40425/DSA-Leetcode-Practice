@@ -1,4 +1,4 @@
-📌 **Note:**  ## 📂 Folder: STRINGS & SORTING
+ ## 📂 Folder: STRINGS & SORTING
 
 This folder contains important LeetCode problems focused on **Strings** and **Sorting** concepts. These are a part of Week 2 of the DSA LeetCode series.
 

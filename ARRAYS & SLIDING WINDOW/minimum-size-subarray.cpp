@@ -16,7 +16,6 @@ Output: 0
 
 
 APPROACH:-
-
 -INITIALIZE TWO POINTERS LEFT = 0 AND RIGHT = 0, AND A VARIABLE SUM = 0.
 -MOVE THE RIGHT POINTER FORWARD AND ADD NUMS[RIGHT] TO SUM.
 -WHEN SUM BECOMES GREATER THAN OR EQUAL TO TARGET, UPDATE MINIMUM LENGTH.
@@ -31,7 +30,7 @@ class Solution {
 public:
     int minSubArrayLen(int target, vector<int>& nums) {
         int n = nums.size();
-        int left = 0, sum = 0, minLen = INT_MAX;
+        int left = 0, sum = 0, minLen = INT_MAX;            //INT_MAX is the largest possible value an integer datatype can hold. (used for the first pass)
         
         for (int right = 0; right < n; right++) {
             sum += nums[right];

@@ -12,7 +12,20 @@ Output: 1
 
 Example 3:
 Input: target = 11, nums = [1,1,1,1,1,1,1,1]
-Output: 0                                             */
+Output: 0                                             
+
+
+APPROACH:-
+
+-INITIALIZE TWO POINTERS LEFT = 0 AND RIGHT = 0, AND A VARIABLE SUM = 0.
+-MOVE THE RIGHT POINTER FORWARD AND ADD NUMS[RIGHT] TO SUM.
+-WHEN SUM BECOMES GREATER THAN OR EQUAL TO TARGET, UPDATE MINIMUM LENGTH.
+-SHRINK THE WINDOW BY MOVING LEFT FORWARD WHILE SUM >= TARGET, UPDATING MINIMUM EACH TIME.
+-RETURN 0 IF NO VALID SUBARRAY IS FOUND, ELSE RETURN THE MINIMUM LENGTH.
+
+              TIME COMPLEXITY :- O(N)
+              SPACE COMPLEXITY:- O(1)                                                                                          */
+
 
 class Solution {
 public:

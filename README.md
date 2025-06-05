@@ -37,13 +37,13 @@ Approach: 2-3 problems/day with increasing difficulty.
 
 Week	     Topics	                       Status
 
-Week 0 	C++ STL Basic Qsts  	         ✅ Done
+Week 0 	C++ STL Basic Qsts  	          ✅ Done
 
-Week 1  Arrays + Sliding Window	       ✅ Done
+Week 1  Arrays + Sliding Window	        ✅ Done
 
-Week 2  Strings + Sorting	             ⏳In Progress
+Week 2  Strings + Sorting	              ✅ Done
 
-Week 3 Linked List + Stack/Queue I	   ⏳ Upcoming
+Week 3 Linked List + Stack/Queue I	   ⏳In Progress
 
 Week 4 Trees I + Stack/Queue II	       ⏳ Upcoming
 

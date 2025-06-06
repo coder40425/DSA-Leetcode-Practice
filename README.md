@@ -43,9 +43,9 @@ Week 1  Arrays + Sliding Window	        ✅ Done
 
 Week 2  Strings + Sorting	              ✅ Done
 
-Week 3 Linked List + Stack/Queue I	   ⏳In Progress
+Week 3 Linked List                	   ⏳In Progress
 
-Week 4 Trees I + Stack/Queue II	       ⏳ Upcoming
+Week 4 Trees + Stack & Queue	         ⏳ Upcoming
 
 Week 5 Binary Search, Heaps, PQ	       ⏳ Upcoming
 

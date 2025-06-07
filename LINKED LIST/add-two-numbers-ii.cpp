@@ -31,7 +31,7 @@ Output: [0]
 -Return result.
 
 
-    TIME COMPLEXITY- O(N + M + max(N,M))   // L-> LENGTH OF L1, M-> LENGTH OF M2.
+    TIME COMPLEXITY- O(N + M + max(N,M))   // N-> LENGTH OF L1, M-> LENGTH OF L2.
     SPACE COMPLEXITY- O(N + M)      //TWO STACKS USED OF SIZE N & M.
                                                                                                                   */
 

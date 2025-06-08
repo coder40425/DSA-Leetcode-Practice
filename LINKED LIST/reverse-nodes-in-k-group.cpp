@@ -57,3 +57,49 @@ public:
         return prev;
     }
 };
+
+/*
+#WITHOUT RECURSION:
+     TIME COMPLEXITY:- O(N)
+     SPACE COMPLEXITY:- O(1)                                                           */
+
+      
+class Solution {
+public:
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        if (head == nullptr || k == 1) return head;
+
+        ListNode dummy(0);
+        dummy->next = head;
+        ListNode* prevGroupEnd = &dummy;
+        ListNode* curr = head;
+
+        int total = 0;
+        while (curr != nullptr) {
+            total++;
+            curr = curr->next;
+        }
+
+        curr = head;
+
+        while (total >= k) {
+            ListNode* groupStart = curr;
+            ListNode* prev = nullptr;
+
+            for (int i = 0; i < k; i++) {
+                ListNode* next = curr->next;
+                curr->next = prev;
+                prev = curr;
+                curr = next;
+            }
+
+            prevGroupEnd->next = prev;
+            groupStart->next = curr;
+            prevGroupEnd = groupStart;
+
+            total -= k;
+        }
+
+        return dummy->next;
+    }
+};

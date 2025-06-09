@@ -24,7 +24,7 @@ Build interview-level confidence in key data structures and algorithms.
 
 ✅ Current Progress
 
-Problems Solved: 45 (so far).
+Problems Solved: 50 (so far).
 
 Currently Focused On:  Strings + Sorting.
 

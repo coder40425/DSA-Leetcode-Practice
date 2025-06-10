@@ -24,7 +24,7 @@ Output: [3,2,1,4,5]
 -THE OLD HEAD'S NEXT IS CONNECTED TO THE HEA DOF THE REVERSED NEXT SEGMENT.
 
        TIME COMPLEXITY:- O(N)
-       SPACE COMPLEXITY:- O(N/K)    //RECURSION STACK SPACE                                                                            */
+       SPACE COMPLEXITY:- O(N/K)    //RECURSION STACK SPACE                                                                          */
       
 
 

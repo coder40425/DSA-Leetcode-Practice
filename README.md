@@ -33,32 +33,21 @@ Approach: 2-3 problems/day with increasing difficulty.
 
 ---
 
-🧭 Weekly Plan (Based on Personal Roadmap)
+## 🧭 Weekly DSA Plan (Based on Personal Roadmap)
 
-Week	     Topics	                       Status
-
-Week 0 	C++ STL Basic Qsts  	          ✅ Done
-
-Week 1  Arrays + Sliding Window	        ✅ Done
-
-Week 2  Strings + Sorting	              ✅ Done
-
-Week 3 Linked List                	    ✅ Done
-
-Week 4 Trees + Stack & Queue	         ⏳In Progress
-
-Week 5 Bit Manipulation + Maths        ⏳ Upcoming
-
-Week 6 Binary Search, Heaps, PQ	       ⏳ Upcoming
-
-Week 7 Backtracking + Recursion	       ⏳ Upcoming
-
-Week 8 Greedy + Hashing	               ⏳ Upcoming
-
-Week 9 Graphs (BFS/DFS, DSU)	         ⏳ Upcoming
-
-Week 10 Intro to Dynamic Programming	 ⏳ Upcoming
-
+| Week     | Topics                                | Status        |
+|----------|----------------------------------------|----------------|
+| Week 0   | C++ STL Basics                         | ✅ Done         |
+| Week 1   | Arrays + Sliding Window                | ✅ Done         |
+| Week 2   | Strings + Sorting                      | ✅ Done         |
+| Week 3   | Linked List                            | ✅ Done         |
+| Week 4   | Trees + Stack & Queue                  | ⏳ In Progress  |
+| Week 5   | Bit Manipulation + Maths               | ⏳ Upcoming     |
+| Week 6   | Binary Search, Heaps, Priority Queue   | ⏳ Upcoming     |
+| Week 7   | Backtracking + Recursion               | ⏳ Upcoming     |
+| Week 8   | Greedy + Hashing                       | ⏳ Upcoming     |
+| Week 9   | Graphs (BFS / DFS / DSU)               | ⏳ Upcoming     |
+| Week 10  | Intro to Dynamic Programming           | ⏳ Upcoming     |
 
 
 ---

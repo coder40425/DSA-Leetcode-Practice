@@ -1,6 +1,6 @@
 # DSA Practice
 
-DSA Practice – Summer 2025 (Target: 150 Questions)
+DSA Practice – Summer 2025 (Target: 150+ Questions)
 
 Hi, I'm Yash Kumar Singh, a 2nd-year Chemical Engineering undergrad from NIT Durgapur (2024–2028).
 
@@ -47,15 +47,17 @@ Week 3 Linked List                	    ✅ Done
 
 Week 4 Trees + Stack & Queue	         ⏳In Progress
 
-Week 5 Binary Search, Heaps, PQ	       ⏳ Upcoming
+Week 5 Bit Manipulation + Maths        ⏳ Upcoming
 
-Week 6 Backtracking + Recursion	       ⏳ Upcoming
+Week 6 Binary Search, Heaps, PQ	       ⏳ Upcoming
 
-Week 7 Greedy + Hashing	               ⏳ Upcoming
+Week 7 Backtracking + Recursion	       ⏳ Upcoming
 
-Week 8 Graphs (BFS/DFS, DSU)	         ⏳ Upcoming
+Week 8 Greedy + Hashing	               ⏳ Upcoming
 
-Week 9 Intro to Dynamic Programming	   ⏳ Upcoming
+Week 9 Graphs (BFS/DFS, DSU)	         ⏳ Upcoming
+
+Week 10 Intro to Dynamic Programming	 ⏳ Upcoming
 
 
 

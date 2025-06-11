@@ -24,9 +24,9 @@ Build interview-level confidence in key data structures and algorithms.
 
 ✅ Current Progress
 
-Problems Solved: 50 (so far).
+Problems Solved: 52 (so far).
 
-Currently Focused On:  Strings + Sorting.
+Currently Focused On: Trees + Stack & Queue.
 
 Approach: 2-3 problems/day with increasing difficulty.
 
@@ -43,9 +43,9 @@ Week 1  Arrays + Sliding Window	        ✅ Done
 
 Week 2  Strings + Sorting	              ✅ Done
 
-Week 3 Linked List                	   ⏳In Progress
+Week 3 Linked List                	    ✅ Done
 
-Week 4 Trees + Stack & Queue	         ⏳ Upcoming
+Week 4 Trees + Stack & Queue	         ⏳In Progress
 
 Week 5 Binary Search, Heaps, PQ	       ⏳ Upcoming
 

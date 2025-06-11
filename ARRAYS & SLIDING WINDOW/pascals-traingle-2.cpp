@@ -18,14 +18,18 @@ Output: [1]
 
 Example 3:
 Input: rowIndex = 1
-Output: [1,1] */
+Output: [1,1] 
 
-// Returns the k-th row of Pascal’s Triangle using O(k) space.
-// Starts with row[0] = 1 and builds each row in-place from right to left.
-// Updates follow Pascal's rule: row[j] += row[j - 1].
-// Reverse loop ensures previous values aren't overwritten during calculation.
-// Time: O(k^2), Space: O(k)
-
+#APPROACH:-
+-Returns the k-th row of Pascal’s Triangle using O(k) space.
+-Starts with row[0] = 1 and builds each row in-place from right to left.
+-Updates follow Pascal's rule: row[j] += row[j - 1].
+-Reverse loop ensures previous values aren't overwritten during calculation.
+  
+                           Time complexity: O(k^2)
+                           Space complexity: O(k)                   
+                                                                                                              */
+     
 class Solution {
 public:
     vector<int> getRow(int rowIndex) {

@@ -14,14 +14,19 @@ Output: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 
 Example 2:
 Input: numRows = 1
-Output: [[1]]               */
+Output: [[1]]               
 
-// The code below builds Pascal's Triangle up to 'numRows'.
-// Each row starts and ends with 1, and inner elements are calculated using the sum of two elements from the previous row.
-// row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j].
-// The triangle is stored as a 2D vector and each row is appended iteratively.
-// I have mentioned the steps in the code too.
-// Time complexity: O(n^2), Space complexity: O(n^2).
+
+#APPROACH:-
+-The code below builds Pascal's Triangle up to 'numRows'.
+-Each row starts and ends with 1, and inner elements are calculated using the sum of two elements from the previous row.
+-row[j] = triangle[i - 1][j - 1] + triangle[i - 1][j].
+-The triangle is stored as a 2D vector and each row is appended iteratively.
+-I have mentioned the steps in the code too.
+  
+              Time complexity: O(n^2)
+              Space complexity: O(n^2)                                                         */
+
 
 class Solution {
 public:

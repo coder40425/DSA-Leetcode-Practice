@@ -21,10 +21,19 @@ Input: digits = [9]
 Output: [1,0]
 Explanation: The array represents the integer 9.
 Incrementing by one gives 9 + 1 = 10.
-Thus, the result should be [1,0].     */
+Thus, the result should be [1,0].     
 
-/* Time complexity- O(n)
-  Space complexity- O(1)     */
+
+#APPROACH:-
+-MAKE A PONTER RIGHT, AND POINT IT TO THE RIGHTMOST ELEMENT.
+-CREATE A LOOP FROM 0 TO N-1
+-IF THE RIGHTMOST ELEMENT IS NOT EQUAL TO 9(MEANS IT IS 0,1,2,3,4,.....8), SO ADD 1 TO THE RIGHTMOST ELEMENT & RETURN THE ARRAY.
+-IF THE RIGHTMOST ELEMENT IS EQUAL TO 9, MAKE THE RIGHTMOST ELEMENT 0, AND MOVE RIGHT POINTER TO THE LEFT SIDE OF THE LIST(i..e. RIGHT--).
+-EDGE CASE: IF ALL ARE 9s, INCREASE THE SIZE OF THE LIST & INSERT 1 AT THE BEGINNING OF THE LIST.
+
+     Time complexity- O(n)
+     Space complexity- O(1)                                                                      */ 
+
 
 class Solution {
 public:
@@ -42,7 +51,7 @@ public:
             }
         }
         // If loop completes, all digits were 9
-        digits.insert(digits.begin(), 1);
+        digits.insert(digits.begin(), 1);            //EDGE CASE
         return digits;
     }
 };

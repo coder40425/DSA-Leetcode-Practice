@@ -7,7 +7,19 @@ Output: [1,4,3,2,5]
 
 Example 2:
 Input: head = [5], left = 1, right = 1
-Output: [5]                                                                      */
+Output: [5]                                                                      
+
+
+#APPROACH:-
+1. TRAVERSE FROM HEAD TO THE LEFT-TH NODE, KEEPING A POINTER TO THE NODE JUST BEFORE IT.
+2. REVERSE THE NEXT RIGHT−LEFT+1 NODES BY ITERATIVELY FLIPPING THEIR NEXT POINTERS.
+3. AFTER REVERSAL, CONNECT THE “NODE BEFORE SUBLIST” TO THE NEW SUBLIST HEAD.
+4. CONNECT THE ORIGINAL SUBLIST TAIL TO THE NODE IMMEDIATELY AFTER THE RIGHT-TH NODE.
+5. RETURN THE (POTENTIALLY UPDATED) HEAD OF THE LIST.
+
+       TIME COMPLEXITY: O(N)
+       SPACE COMPLEXITY: O(1)
+                                                                                                   */
 
 
 class Solution {

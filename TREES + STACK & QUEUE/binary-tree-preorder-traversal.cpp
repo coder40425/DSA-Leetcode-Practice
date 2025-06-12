@@ -18,11 +18,19 @@ Input: root = [1]
 Output: [1]
 
 
+#APPROACH:-
+-PREORDER TRAVERSAL: ROOT -> LEFT -> RIGHT
+-RECURSSIVE APPROACH
+
+        TIME COMPLEXITY:- O(N)    [N-> NO. OF NODES IN BINARY TREE]
+        SPACE CPMPLEXITY:- O(H)   //AUXILLIARY STACK SPACE  [H->HEIGHT OF TREE]                                                               */
+
+
 
 class Solution {
 public:
     void preorder(TreeNode*root, vector<int>&result){
-        if(root==nullptr) return;
+        if(root==nullptr) return;                      //IF TREE IS EMPTY
         result.push_back(root->val);
         preorder(root->left,result);
         preorder(root->right,result);

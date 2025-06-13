@@ -24,7 +24,7 @@ Build interview-level confidence in key data structures and algorithms.
 
 ✅ Current Progress
 
-Problems Solved: 52 (so far).
+Problems Solved: 58 (so far).
 
 Currently Focused On: Trees + Stack & Queue.
 

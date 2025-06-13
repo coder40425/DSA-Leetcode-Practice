@@ -9,7 +9,7 @@ This folder contains important LeetCode problems focused on Tree Traversals, Vie
 | Problem Name                                                | File Name                                             | LeetCode Link |
 |-------------------------------------------------------------|--------------------------------------------------------|---------------|
 | Balanced Binary Tree                                        | balanced-binary-tree.cpp                               | [Link](https://leetcode.com/problems/balanced-binary-tree) |
-| Binary Search Tree Iterator                                 | bst-iterator.cpp                                       | [Link](https://leetcode.com/problems/binary-search-tree-iterator) |
+| Binary Search Tree Iterator                                 | binary-search-tree-iterator.cpp                        | [Link](https://leetcode.com/problems/binary-search-tree-iterator) |
 | Binary Tree Inorder Traversal                               | binary-tree-inorder-traversal.cpp                      | [Link](https://leetcode.com/problems/binary-tree-inorder-traversal) |
 | Binary Tree Level Order Traversal                           | binary-tree-level-order-traversal.cpp                  | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal) |
 | Binary Tree Level Order Traversal II                        | binary-tree-level-order-traversal-ii.cpp               | [Link](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) |

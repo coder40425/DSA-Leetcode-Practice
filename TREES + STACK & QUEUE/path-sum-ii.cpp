@@ -14,11 +14,6 @@ Explanation: There are two paths whose sum equals targetSum:
 Example 2:
 Input: root = [1,2,3], targetSum = 5
 Output: []
-  
-Example 3:
-Input: root = [1,2], targetSum = 0
-Output: []
-
 
 ##APPROACH:-DFS (DEPTH-FIRST SEARCH) + BACKTRACKING
 -INITIALIZE AN EMPTY LIST RESULT TO STORE VALID PATHS.

@@ -20,7 +20,7 @@ Input: root = [1,2], targetSum = 0
 Output: []
 
 
-##APPROACH:-
+##APPROACH:-DFS (DEPTH-FIRST SEARCH) + BACKTRACKING
 -INITIALIZE AN EMPTY LIST RESULT TO STORE VALID PATHS.
 -DEFINE A RECURSIVE DFS FUNCTION WITH: CURRENT NODE, CURRENT PATH (LIST), REMAINING SUM (TARGETSUM - PATH SUM SO FAR).
 -IN THE DFS: IF NODE IS NULLPTR, RETURN. 
@@ -31,16 +31,15 @@ Output: []
 -RETURN RESULT.
 
   #TIME COMPLEXITY: O(N * H)       #WORST:- O(N^2)
-  Let N be the number of nodes, and H the height of the tree.
-  In the worst case, you visit every node → O(N)
-  At each leaf, you may create a copy of the path (which could be up to height H) → O(H) per path
+    Let N be the number of nodes, and H the height of the tree. In the worst case, you visit every node → O(N)
+    At each leaf, you may create a copy of the path (which could be up to height H) → O(H) per path
 
-   #SPACE COMPLEXITY: O(M * H)      #WORST:- O(N^2)
-   Recursion stack: Max depth = height → O(H)
-   Path vector: Also up to height → O(H)
-   Result: In worst case, you may have many paths, each up to H long → O(M * H) where M is number of valid paths                 */
+  #SPACE COMPLEXITY: O(M * H)      #WORST:- O(N^2)
+    Recursion Stack: Max depth = height → O(H). Path vector: Also up to height → O(H)
+    Result: In worst case, you may have many paths, each up to H long → O(M * H) where M is number of valid paths                 */
 
 
+//MY CODE
 class Solution {
 public:
     vector<vector<int>> result; // stores all valid paths

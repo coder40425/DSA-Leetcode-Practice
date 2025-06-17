@@ -11,15 +11,15 @@ Notice that by initializing the pointer to a non-existent smallest number, the f
 
 
 /*
-##APPROACH 1:-
+##APPROACH 1:- VECTOR BASED (STORE FULL INORDER)
 -STORE THE ENTIRE INORDER TRAVERSAL IN A VECTOR DURING INTIALIZATION.
 -USE AN INDEX TO TRACK next() CALLS.
 
          TIME COMPLEXITY:- O(N) [full inorder traversal at start + O(1) for next() call for N nodes]
          SPACE COMPLEXITY:- O(N) [store all N node values in a vector] 
          
--This approach is simple to implement & preffered when we want fast next() always.
--Avoid this approach if BST is huge, as we store full traversal.                                              */
+-This approach is simple to implement & gives fast next() & hasNext().
+-Avoid this approach if BST is huge due to high space usage.                                              */
 
 //my code-1
 class BSTIterator {
@@ -48,7 +48,7 @@ public:
 };
 
 /*
-##APPROACH 2:- (USING STACK CONTROLLED INORDER TRAVERSAL)
+##APPROACH 2:- STACK BASED (LAZY INORDER TRAVERSAL)
 -Use a stack to simulate the inorder traversal of a BST.
 -In the constructor, push all the left nodes starting from the root into the stack.
 -next() pops the top node (smallest element) and pushes all the left nodes of its right subtree.
@@ -56,7 +56,9 @@ public:
 -This gives us the next smallest node on each call in O(1) amortized time.
 
       TIME COMPLEXITY:- O(N)  [O(1) for next() call for N nodes]
-      SPACE COMPLEXITY:- O(H) [H-> Height of the tree]                                                       */
+      SPACE COMPLEXITY:- O(H) [H-> Height of the tree]                                                      
+
+-Preffered for large BSTs or partial traversal.                                               */
 
 //my code-2
 class BSTIterator {

@@ -26,7 +26,7 @@ Build interview-level confidence in key data structures and algorithms.
 
 Problems Solved: 71 (so far).
 
-Currently Focused On: Trees + Stack & Queue.
+Currently Focused On: Bit Manipulation + Maths.
 
 Approach: 2-3 problems/day with increasing difficulty.
 

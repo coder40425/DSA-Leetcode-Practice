@@ -42,7 +42,7 @@ Approach: 2-3 problems/day with increasing difficulty.
 | Week 2  | Strings + Sorting                      | ✅ Done       |
 | Week 3  | Linked List                            | ✅ Done       |
 | Week 4  | Trees + Stack & Queue                  | ✅ Done       |
-| Week 5  | Bit Manipulation + Maths               | ⏳ Upcoming   |
+| Week 5  | Bit Manipulation + Maths               | ⏳ In Progress |   |
 | Week 6  | Binary Search, Heaps, Priority Queue   | ⏳ Upcoming   |
 | Week 7  | Backtracking + Recursion               | ⏳ Upcoming   |
 | Week 8  | Greedy + Hashing                       | ⏳ Upcoming   |

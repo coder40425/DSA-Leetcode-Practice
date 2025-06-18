@@ -24,7 +24,7 @@ Build interview-level confidence in key data structures and algorithms.
 
 ✅ Current Progress
 
-Problems Solved: 69 (so far).
+Problems Solved: 71 (so far).
 
 Currently Focused On: Trees + Stack & Queue.
 
@@ -33,22 +33,21 @@ Approach: 2-3 problems/day with increasing difficulty.
 
 ---
 
-## 🧭 Weekly DSA Plan (Based on Personal Roadmap)
+# 🧭 Weekly DSA Plan
 
-| *Week*   | *Topics*                              | *Status*       |
-|------------|------------------------------------------|------------------|
-| Week 0     | C++ STL Basics                           | ✅ Done           |
-| Week 1     | Arrays + Sliding Window                  | ✅ Done           |
-| Week 2     | Strings + Sorting                        | ✅ Done           |
-| Week 3     | Linked List                              | ✅ Done           |
-| Week 4     | Trees + Stack & Queue                    | ⏳ In Progress    |
-| Week 5     | Greedy + Hashing                         | ⏳ Upcoming       |
-| Week 6     | Binary Search + Heaps + Priority Queue   | ⏳ Upcoming       |
-| Week 7     | Backtracking + Recursion                 | ⏳ Upcoming       |
-| Week 8     | Bit Manipulation + Maths                 | ⏳ Upcoming       |
-| Week 9     | Graphs (BFS / DFS / DSU)                 | ⏳ Upcoming       |
-| Week 10    | Intro to Dynamic Programming             | ⏳ Upcoming       |
-
+| Week    | Topics                                  | Status        |
+|---------|-----------------------------------------|---------------|
+| Week 0  | C++ STL Basics                          | ✅ Done      |
+| Week 1  | Arrays + Sliding Window                | ✅ Done       |
+| Week 2  | Strings + Sorting                      | ✅ Done       |
+| Week 3  | Linked List                            | ✅ Done       |
+| Week 4  | Trees + Stack & Queue                  | ✅ Done       |
+| Week 5  | Bit Manipulation + Maths               | ⏳ Upcoming   |
+| Week 6  | Binary Search, Heaps, Priority Queue   | ⏳ Upcoming   |
+| Week 7  | Backtracking + Recursion               | ⏳ Upcoming   |
+| Week 8  | Greedy + Hashing                       | ⏳ Upcoming   |
+| Week 9  | Graphs (BFS / DFS / DSU)               | ⏳ Upcoming   |
+| Week 10 | Intro to Dynamic Programming           | ⏳ Upcoming   |
 
 ---
 

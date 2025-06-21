@@ -82,7 +82,7 @@ Basic Dynamic Programming
 
 📁 Repository Structure
 
-📦 DSA-10-Week-Challenge/
+📦**DSA-Leetcode-Practice/**
 
 ├── **C++ STL BASICS**/             
 │   ├── two-sum.cpp                 

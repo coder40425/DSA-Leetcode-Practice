@@ -5,7 +5,7 @@ Each file is a C++ solution to a corresponding LeetCode question.
 
 ---
 
-### ✅ Week 5 Checklist
+### ✅ Week 6 Checklist
 
 | Problem Name                                      | File Name                                     | LeetCode Link |
 |--------------------------------------------------|-----------------------------------------------|---------------|

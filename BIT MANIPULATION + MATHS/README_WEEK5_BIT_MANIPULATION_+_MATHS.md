@@ -8,7 +8,6 @@ This folder contains important LeetCode problems focused on Bit Manipulation and
 
 | Problem Name                             | File Name                                 | LeetCode Link |
 |------------------------------------------|--------------------------------------------|---------------|
-| Bitwise AND of Numbers Range             | bitwise-and-of-numbers-range.cpp           | [Link](https://leetcode.com/problems/bitwise-and-of-numbers-range) |
 | Counting Bits                            | counting-bits.cpp                          | [Link](https://leetcode.com/problems/counting-bits) |
 | Excel Sheet Column Number                | excel-sheet-column-number.cpp              | [Link](https://leetcode.com/problems/excel-sheet-column-number) |
 | Hamming Distance                         | hamming-distance.cpp                       | [Link](https://leetcode.com/problems/hamming-distance) |

@@ -78,6 +78,48 @@ Graphs (BFS, DFS, DSU)
 Basic Dynamic Programming
 
 
+---
+
+📁 Repository Structure
+
+📦 DSA-10-Week-Challenge/
+├── C++-STL-Basics/
+│   ├── two-sum.cpp
+│   ├── ...
+│   └── README.md
+├── Arrays-Sliding-Window/
+│   ├── maximum-subarray.cpp
+│   ├── ...
+│   └── README.md
+├── Strings-Sorting/
+│   ├── valid-anagram.cpp
+│   ├── ...
+│   └── README.md
+├── Linked-List/
+│   ├── linked-list-cycle.cpp
+│   ├── ...
+│   └── README.md
+├── Trees-Stack-Queue/
+│   ├── ...
+│   └── README.md
+├── Bit-Manipulation-Maths/
+│   └── ...
+├── Greedy-Hashing/
+├── BinarySearch-Heaps-PQ/
+├── Backtracking-Recursion/
+├── Graphs/
+├── Dynamic-Programming/
+└── README.md         ← Main repository overview
+
+#Each topic folder includes:
+
+✅ C++ solution files named by problem (e.g., two-sum.cpp)
+
+🧠 My approach + time & space complexity in comments
+
+📌 A README.md listing all problems with their LeetCode links
+
+
 
 ---
 

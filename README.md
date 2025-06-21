@@ -2,11 +2,11 @@
 
 # 🚀 DSA Practice – Summer 2025 (Target: 150+ Questions)
 
-Hi, I'm *Yash Kumar Singh, a 2nd-year Chemical Engineering undergrad from **NIT Durgapur (2024–2028)**.
+Hi, I'm **Yash Kumar Singh**, a 2nd-year Chemical Engineering undergrad from **NIT Durgapur (2024–2028)**.
 
 This repository documents my summer vacation journey (May–July 2025) to solve 150+ *DSA (Data Structures & Algorithms)* questions using *C++ on LeetCode*.
 
-> It's a focused 10-week challenge to level up problem-solving and algorithmic thinking.
+> It's a focused **10-week challenge** to level up problem-solving and algorithmic thinking.
 
 ---
 

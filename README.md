@@ -69,7 +69,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 │   ├── two-sum.cpp                 
 │   ├── ...                         
 │   └── README.md                   
-├──**ARRAY + SLIDING WINDOW/**      
+├──**ARRAYS + SLIDING WINDOW/**      
 │   ├── maximum-subarray.cpp        
 │   ├── ...                         
 │   └── README.md                   

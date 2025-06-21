@@ -93,7 +93,9 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 ├──**DYNAMIC PROGRAMMING/**         
 └── README.md         ← Main repository overview 
 
-###Each topic folder includes:
+
+#📦Each topic folder includes:
+
 -✅ C++ solution files named by problem (e.g., two-sum.cpp)
 -🧠 My approach + time & space complexity in comments
 -📌 A README.md listing all problems with their LeetCode links
@@ -102,7 +104,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 ---
 
 
-##⚙ Tools Used
+⚙ Tools Used
 
 Language: C++
 
@@ -116,13 +118,13 @@ Version Control: Git & GitHub
 
 ---
 
-##✅ Motivation
+✅ Motivation
 
 This repo is my summer effort to grow into a better problem solver — learning the patterns, thinking in edge cases, and preparing for technical interviews.
 
 
 ---
 
-##License
+License
 
 This project is licensed under the MIT License — see the LICENSE file for details.

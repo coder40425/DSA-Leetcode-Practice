@@ -33,7 +33,7 @@ Approach: 2-3 problems/day with increasing difficulty.
 
 ---
 
-##🧭 Weekly DSA Plan (Based on Personal Roadmap)
+🧭 Weekly DSA Plan (Based on Personal Roadmap)
 
 | *Week*   | *Topics*                              | *Status*       |
 |------------|------------------------------------------|------------------|
@@ -83,32 +83,32 @@ Basic Dynamic Programming
 📁 Repository Structure
 
 📦 DSA-10-Week-Challenge/
-├── C++-STL-Basics/
+├── **C++ STL BASICS**/
 │   ├── two-sum.cpp
 │   ├── ...
 │   └── README.md
-├── Arrays-Sliding-Window/
+├──**ARRAY + SLIDING WINDOW/**
 │   ├── maximum-subarray.cpp
 │   ├── ...
 │   └── README.md
-├── Strings-Sorting/
+├──**STRINGS + SORTING/**
 │   ├── valid-anagram.cpp
 │   ├── ...
 │   └── README.md
-├── Linked-List/
+├──**LINKED LIST/**
 │   ├── linked-list-cycle.cpp
 │   ├── ...
 │   └── README.md
-├── Trees-Stack-Queue/
+├──**TREES + STACK & QUEUE/**
 │   ├── ...
 │   └── README.md
-├── Bit-Manipulation-Maths/
+├──**BIT MANIPULATION + MATHS/**
 │   └── ...
-├── Greedy-Hashing/
-├── BinarySearch-Heaps-PQ/
-├── Backtracking-Recursion/
-├── Graphs/
-├── Dynamic-Programming/
+├──**GREEDY + HASHING/**
+├──**BINARY SEACH + HEAPS + PQ/**
+├──**BACKTRACKING & RECUSION/**
+├──**GRAPHS/**
+├──**DYNAMIC PROGRAMMING/**
 └── README.md         ← Main repository overview
 
 #Each topic folder includes:

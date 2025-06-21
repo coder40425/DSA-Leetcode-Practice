@@ -20,8 +20,8 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 
 ## 📊 Current Progress
 
-- ✅ *Problems Solved*: 79 (so far)  
-- 🧠 *Current Focus*: Bit Manipulation + Maths  
+- ✅ *Problems Solved*: 82 (so far)  
+- 🧠 *Current Focus*: Greedy + Hashing   
 - 🔄 *Approach*: 2–3 problems/day with increasing difficulty
 
 ---
@@ -35,8 +35,8 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 | Week 2   | Strings + Sorting                         | ✅ Done         |
 | Week 3   | Linked List                               | ✅ Done         |
 | Week 4   | Trees + Stack & Queue                     | ✅ Done         |
-| Week 5   | Bit Manipulation + Maths                  | ⏳ In Progress  |
-| Week 6   | Greedy + Hashing                          | ⏳ Upcoming     |
+| Week 5   | Bit Manipulation + Maths                  | ✅ Done         |
+| Week 6   | Greedy + Hashing                          | ⏳ In Progress  |
 | Week 7   | Binary Search + Heaps + Priority Queue    | ⏳ Upcoming     |
 | Week 8   | Backtracking + Recursion                  | ⏳ Upcoming     |
 | Week 9   | Graphs (BFS / DFS / DSU)                  | ⏳ Upcoming     |

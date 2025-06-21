@@ -83,33 +83,33 @@ Basic Dynamic Programming
 📁 Repository Structure
 
 📦 DSA-10-Week-Challenge/
-├── **C++ STL BASICS**/
-│   ├── two-sum.cpp
-│   ├── ...
-│   └── README.md
-├──**ARRAY + SLIDING WINDOW/**
-│   ├── maximum-subarray.cpp
-│   ├── ...
-│   └── README.md
-├──**STRINGS + SORTING/**
-│   ├── valid-anagram.cpp
-│   ├── ...
-│   └── README.md
-├──**LINKED LIST/**
-│   ├── linked-list-cycle.cpp
-│   ├── ...
-│   └── README.md
-├──**TREES + STACK & QUEUE/**
-│   ├── ...
-│   └── README.md
-├──**BIT MANIPULATION + MATHS/**
-│   └── ...
-├──**GREEDY + HASHING/**
-├──**BINARY SEACH + HEAPS + PQ/**
-├──**BACKTRACKING & RECUSION/**
-├──**GRAPHS/**
-├──**DYNAMIC PROGRAMMING/**
-└── README.md         ← Main repository overview
+├── **C++ STL BASICS**/             |
+│   ├── two-sum.cpp                 |
+│   ├── ...                         |
+│   └── README.md                   |
+├──**ARRAY + SLIDING WINDOW/**      |
+│   ├── maximum-subarray.cpp        |
+│   ├── ...                         |
+│   └── README.md                   |
+├──**STRINGS + SORTING/**           |
+│   ├── valid-anagram.cpp           |
+│   ├── ...                         |
+│   └── README.md                   |
+├──**LINKED LIST/**                 |
+│   ├── linked-list-cycle.cpp       |
+│   ├── ...                         |
+│   └── README.md                   |
+├──**TREES + STACK & QUEUE/**       |
+│   ├── ...                         |
+│   └── README.md                   |
+├──**BIT MANIPULATION + MATHS/**    |
+│   └── ...                         |
+├──**GREEDY + HASHING/**            |
+├──**BINARY SEACH + HEAPS + PQ/**   |
+├──**BACKTRACKING & RECUSION/**     |
+├──**GRAPHS/**                      |
+├──**DYNAMIC PROGRAMMING/**         |
+└── README.md         ← Main repository overview |
 
 #Each topic folder includes:
 

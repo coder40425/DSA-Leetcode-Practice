@@ -20,7 +20,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 
 ## 📊 Current Progress
 
-- ✅ *Problems Solved*: 84 (so far)  
+- ✅ *Problems Solved*: 89 (so far)  
 - 🧠 *Current Focus*: Greedy + Hashing   
 - 🔄 *Approach*: 2–3 problems/day with increasing difficulty
 

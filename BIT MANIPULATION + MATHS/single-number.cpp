@@ -17,7 +17,7 @@ Output: 1                          */
 /*
 #APPROACH:-
 -USING XOR TRICK
- WHICH IS, [ A^A = 0  ,  A^0 = 0  ,  A^B^A = B ]
+ WHICH IS, [ A^A = 0  ,  A^0 = A  ,  A^B^A = B ]
   
       TIME COMPLEXITY:-O(N)
       SPACE COMPLEXITY:-O(1)                       */

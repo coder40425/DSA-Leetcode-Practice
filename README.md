@@ -21,7 +21,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 ## 📊 Current Progress
 
 - ✅ *Problems Solved*: 97 (so far)  
-- 🧠 *Current Focus*: Binary Search + Heaps + Priority Queue   
+- 🧠 *Current Focus*: Binary Search, Heaps & Priority Queue  
 - 🔄 *Approach*: 2–3 problems/day with increasing difficulty
 
 ---
@@ -37,7 +37,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 | Week 4   | Trees + Stack & Queue                     | ✅ Done         |
 | Week 5   | Bit Manipulation + Maths                  | ✅ Done         |
 | Week 6   | Greedy + Hashing                          | ✅ Done         |
-| Week 7   | Binary Search + Heaps + Priority Queue    | ⏳ In Progress  |
+| Week 7   | Binary Search, Heaps & Priority Queue    | ⏳ In Progress   |
 | Week 8   | Backtracking + Recursion                  | ⏳ Upcoming     |
 | Week 9   | Graphs (BFS / DFS / DSU)                  | ⏳ Upcoming     |
 | Week 10  | Intro to Dynamic Programming              | ⏳ Upcoming     |

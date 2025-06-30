@@ -19,7 +19,7 @@ APPROACH:
  -Whenever sum becomes equal to k, make count++ (i.e increase the count by 1)
  -Answer will be the final count value (i.e return count)
  
-   TIME COMPLEXITY- O(N)
+   TIME COMPLEXITY- O(N^2)
    SPACE COMPLEXITY-O(1)  
                                                                                                                  */
 
@@ -38,4 +38,25 @@ public:
         }
         return count;
     }
+};
+
+/*#(OPTIMIZED APPROACH) - USING HASHMAP + PREFIX SUM
+    TIME COMPLEXITY- O(N)    SPACE COMPLEXITY-O(N)   */
+
+class Solution {
+public:
+  int subarraySum(vector<int>& nums, int k) {
+    unordered_map<int, int> prefixSumCount;
+    prefixSumCount[0] = 1; // to handle sum == k from index 0
+    int currSum = 0, count = 0;
+
+    for (int num : nums) {
+        currSum += num;
+        if (prefixSumCount.find(currSum - k) != prefixSumCount.end()) {
+            count += prefixSumCount[currSum - k];
+        }
+        prefixSumCount[currSum]++;
+    }
+    return count;
+  }
 };

@@ -11,7 +11,7 @@ Example 2:
 Input: nums = [1,2,3], k = 3
 Output: 2                                 
 
-APPROACH:
+##APPROACH:
  -We will have to find the number of subarrays whose sum is equal to k.
  -We will create outer and inner loops. (i & j)
  -Initialize i from 0 and j from i (for every value of i)

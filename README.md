@@ -20,7 +20,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 
 ## 📊 Current Progress
 
-- ✅ *Problems Solved*: 100 (so far)  
+- ✅ *Problems Solved*: 103 (so far)  
 - 🧠 *Current Focus*: Binary Search, Heaps & Priority Queue  
 - 🔄 *Approach*: 2–3 problems/day with increasing difficulty
 

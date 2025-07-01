@@ -15,7 +15,7 @@ Explanation: 3 is a peak element and your function should return the index numbe
 -Multiple peaks, so peaks can be at boundaries.
 -When low == high, that is our final answer.
 
-      TIME COMPLEXITY:- O(LOG*N)       SPACE COMPLEXITY:O(1)         */
+      TIME COMPLEXITY:- O(LOG N)       SPACE COMPLEXITY:O(1)         */
 
 //my solution
 class Solution {

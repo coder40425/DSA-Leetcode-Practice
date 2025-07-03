@@ -98,7 +98,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 
 -✅ C++ solution files named by problem (e.g., two-sum.cpp).
 
--🧠 My approach + time & space complexity in comments.
+-🧠 Problem statement + my approach + time & space complexity in comments.
 
 -📌 A README.md listing all problems with their LeetCode links.
 

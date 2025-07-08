@@ -18,7 +18,7 @@ Output:
 ##APPROACH:-
 -Using Recursion & Backtracking
 -At each level, as we move forward, update target (i.e. target = target - candidates[i])
--Store all possible permutations in temp one by one & push them into result.
+-Store all possible combinations in temp one by one & push them into result.
 
       TIME COMPLEXITY:- O(2^n)     SPACE COMPLEXITY:- O(n)   */
 

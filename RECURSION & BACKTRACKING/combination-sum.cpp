@@ -19,7 +19,7 @@ These are the only two combinations.
    -add the element itself
    -add the next element in the array
 -At each level, as we move forward, update target (i.e. target = target - nums[index])
--Store all possible permutations in temp one by one & push them into result.
+-Store all possible combinations in temp one by one & push them into result.
 
       TIME COMPLEXITY:- O(2^n)     SPACE COMPLEXITY:- O(n)   */
 

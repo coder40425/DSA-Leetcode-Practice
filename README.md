@@ -1,10 +1,10 @@
 # DSA Practice
 
-# 🚀 DSA Practice – Summer 2025 (Target: 150+ Questions)
+# 🚀 DSA Practice – Summer 2025 (Target: 140+ Questions)
 
 Hi, I'm **Yash Kumar Singh**, a 2nd-year Chemical Engineering undergrad from **NIT Durgapur (2024–2028)**.
 
-This repository documents my summer vacation journey (May–July 2025) to solve 150+ *DSA (Data Structures & Algorithms)* questions using *C++ on LeetCode*.
+This repository documents my summer vacation journey (May–July 2025) to solve 140+ *DSA (Data Structures & Algorithms)* questions using *C++ on LeetCode*.
 
 > It's a focused **10-week challenge** to level up problem-solving and algorithmic thinking.
 
@@ -12,7 +12,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 
 ## 🎯 Goals
 
-- Solve *150+ DSA problems* by July end  
+- Solve *140+ DSA problems* by July end  
 - Master techniques like *sliding window, prefix sum, recursion, trees, graphs*, and more  
 - Build interview-level confidence in core data structures and algorithms
 
@@ -20,7 +20,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 
 ## 📊 Current Progress
 
-- ✅ *Problems Solved*: 126 (so far)  
+- ✅ *Problems Solved*: 141 (so far)  
 - 🧠 *Current Focus*: Backtracking + Recursion  
 - 🔄 *Approach*: 2–3 problems/day with increasing difficulty
 
@@ -39,8 +39,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 | Week 6   | Greedy + Hashing                          | ✅ Done         |
 | Week 7   | Binary Search, Heaps & Priority Queue     |  ✅ Done        |
 | Week 8   | Backtracking + Recursion                  |  ✅ Done        |
-| Week 9   | Graphs (BFS / DFS / DSU)                  | ⏳ In Progress  |
-| Week 10  | Intro to Dynamic Programming              | ⏳ Upcoming     |
+| Week 9   | Graphs (BFS / DFS / DSU)                  | ✅ Done         |
 
 ---
 
@@ -57,7 +56,6 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 - Binary Search Variants
 - Greedy Algorithms & Hashing
 - Graphs (BFS, DFS, DSU)
-- Basic Dynamic Programming
 
 ---
 
@@ -89,8 +87,7 @@ This repository documents my summer vacation journey (May–July 2025) to solve 
 ├──**GREEDY + HASHING/**            
 ├──**BINARY SEACH + HEAPS + PQ/**   
 ├──**BACKTRACKING & RECUSION/**     
-├──**GRAPHS/**                      
-├──**DYNAMIC PROGRAMMING/**         
+├──**GRAPHS/**                               
 └── README.md         ← Main repository overview 
 
 
